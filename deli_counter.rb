@@ -11,7 +11,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  place_in_line = katz_deli.size + 1
+  katz_deli << name
 
 
 end
