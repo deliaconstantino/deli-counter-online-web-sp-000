@@ -1,7 +1,7 @@
 
 
 def line(line_array)
-  line_length = line_array.length
+  line_length = line_array.size
     if line_length = 0
       puts "The line is currently empty."
     else
