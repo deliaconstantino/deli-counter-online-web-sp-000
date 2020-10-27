@@ -9,4 +9,3 @@ def line(katz_deli)
       puts "The line is currently: #{line_order.join(" ")}"
     end
 end
-
