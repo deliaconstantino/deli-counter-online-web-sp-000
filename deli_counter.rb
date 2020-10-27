@@ -11,4 +11,6 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
+  your_place_in_line = katz_deli.size + 1
+  puts 
 end
