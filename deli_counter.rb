@@ -12,6 +12,6 @@ end
 
 def take_a_number(katz_deli, name)
   place_in_line = katz_deli.size + 1
-  string = "Welcome, #{name}. You are number #{place_in_line} in line."
+
 
 end
