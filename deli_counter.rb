@@ -6,6 +6,7 @@ def line(line_array)
       puts "The line is currently empty."
     else
       line_order = line_array.map.with_index{|name, i| "#{i + 1}. #{name}"}
+      line_order.join(" ")
       puts "The line is currently: #{line_order}"
     end
 end
