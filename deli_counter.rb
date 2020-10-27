@@ -1,8 +1,7 @@
 
 
 def line(katz_deli)
-  line_length = katz_deli.size
-    if line_length == 0
+    if katz_deli.size == 0
       puts "The line is currently empty."
     else
       line_order = katz_deli.map.with_index{|name, i| "#{i + 1}. #{name}"}
