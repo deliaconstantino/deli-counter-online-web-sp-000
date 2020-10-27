@@ -1,4 +1,4 @@
-katz_deli = []
+
 
 def line(line_array)
   line_length = line_array.length
