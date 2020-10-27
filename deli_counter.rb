@@ -5,7 +5,8 @@ def line(line_array)
     if line_length = 0
       puts "The line is currently empty."
     else
-      line_array.map.with_index{}
+      line_array.map.with_index{|name, i| puts "#{i + 1}. #{name}.}
+      
 
       end
     end
